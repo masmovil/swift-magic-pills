@@ -210,6 +210,13 @@
 		F249674A230EBE9500C06E2E /* JSONTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2496749230EBE9500C06E2E /* JSONTestHelper.swift */; };
 		F249674B230EBE9500C06E2E /* JSONTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2496749230EBE9500C06E2E /* JSONTestHelper.swift */; };
 		F249674C230EBE9500C06E2E /* JSONTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2496749230EBE9500C06E2E /* JSONTestHelper.swift */; };
+		F262379323965E010019C854 /* EquatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379223965E010019C854 /* EquatableExtensions.swift */; };
+		F262379423965E010019C854 /* EquatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379223965E010019C854 /* EquatableExtensions.swift */; };
+		F262379523965E010019C854 /* EquatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379223965E010019C854 /* EquatableExtensions.swift */; };
+		F262379623965E010019C854 /* EquatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379223965E010019C854 /* EquatableExtensions.swift */; };
+		F262379823965EA40019C854 /* EquatableExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379723965EA40019C854 /* EquatableExtensionsTests.swift */; };
+		F262379923965EA40019C854 /* EquatableExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379723965EA40019C854 /* EquatableExtensionsTests.swift */; };
+		F262379A23965EA40019C854 /* EquatableExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F262379723965EA40019C854 /* EquatableExtensionsTests.swift */; };
 		F26C3AF822537A4600189D28 /* MagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* MagicPills.swift */; };
 		F26C3AF922537A4600189D28 /* MagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* MagicPills.swift */; };
 		F26C3AFA22537A4600189D28 /* MagicPills.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26C3AF722537A4600189D28 /* MagicPills.swift */; };
@@ -396,6 +403,8 @@
 		F2496740230EBDEF00C06E2E /* LastExecutionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastExecutionState.swift; sourceTree = "<group>"; };
 		F2496745230EBE4200C06E2E /* LastExecutionStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastExecutionStateTests.swift; sourceTree = "<group>"; };
 		F2496749230EBE9500C06E2E /* JSONTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONTestHelper.swift; sourceTree = "<group>"; };
+		F262379223965E010019C854 /* EquatableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableExtensions.swift; sourceTree = "<group>"; };
+		F262379723965EA40019C854 /* EquatableExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableExtensionsTests.swift; sourceTree = "<group>"; };
 		F26C3AF722537A4600189D28 /* MagicPills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicPills.swift; sourceTree = "<group>"; };
 		F2A74DB8225765CF001F0DF2 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		F2A74DBF22576610001F0DF2 /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
@@ -779,6 +788,7 @@
 				F20082F2225E518600AC6EE1 /* DecimalExtensions.swift */,
 				F22A38E6227C76FD0012C010 /* DictionaryExtensions.swift */,
 				F22A356B228077E8004E8546 /* DispatchQueueExtensions.swift */,
+				F262379223965E010019C854 /* EquatableExtensions.swift */,
 				F6D6D4C5230D468F00D161F9 /* FormatterExtensions.swift */,
 				F6D6D4C1230C108F00D161F9 /* LocaleExtensions.swift */,
 				F20082C1225DFC6E00AC6EE1 /* OptionalExtensions.swift */,
@@ -818,6 +828,7 @@
 				F20082E0225DFFD900AC6EE1 /* OptionalExtensionsTests.swift */,
 				F20082E9225E1E7100AC6EE1 /* DateExtensionsTests.swift */,
 				F20082FD225E556500AC6EE1 /* DecimalExtensionsTests.swift */,
+				F262379723965EA40019C854 /* EquatableExtensionsTests.swift */,
 				F68925D322CDE8950008263B /* IntExtensionsTests.swift */,
 				F22A38EB227C775C0012C010 /* DictionaryExtensionsTests.swift */,
 				F2008370226633A500AC6EE1 /* SequenceExtensionsTests.swift */,
@@ -1232,6 +1243,7 @@
 				F62CC34122709F4500DC46F2 /* Toast.swift in Sources */,
 				F200836F2266339800AC6EE1 /* SequenceExtensions.swift in Sources */,
 				F200831B225F831F00AC6EE1 /* StringExtensions+Values.swift in Sources */,
+				F262379323965E010019C854 /* EquatableExtensions.swift in Sources */,
 				F2496724230D504200C06E2E /* SemVer.swift in Sources */,
 				F6F97EE9226DA88500C3E953 /* UICollectionViewExtensions.swift in Sources */,
 				F200832A225F862900AC6EE1 /* DataExtensions.swift in Sources */,
@@ -1299,6 +1311,7 @@
 				F20082DD225DFFCF00AC6EE1 /* BoolExtensionsTests.swift in Sources */,
 				F2C78F27238D6AF4008C4846 /* CellIdentificableTests.swift in Sources */,
 				F22A38F4227C77770012C010 /* SharedDictionaryExtensionsTests.swift in Sources */,
+				F262379823965EA40019C854 /* EquatableExtensionsTests.swift in Sources */,
 				F22A38F0227C775F0012C010 /* DictionaryExtensionsTests.swift in Sources */,
 				F200834A226612F800AC6EE1 /* FakeBundle.swift in Sources */,
 				F69A08222267323600CB09F2 /* UILabelExtensionTests.swift in Sources */,
@@ -1333,6 +1346,7 @@
 				F200832B225F862900AC6EE1 /* DataExtensions.swift in Sources */,
 				F2496742230EBDEF00C06E2E /* LastExecutionState.swift in Sources */,
 				F22A38E3227C767A0012C010 /* SharedDictionary.swift in Sources */,
+				F262379423965E010019C854 /* EquatableExtensions.swift in Sources */,
 				F2008374226633AB00AC6EE1 /* SequenceExtensions.swift in Sources */,
 				F6F3331A2306B03F00E93F0E /* CGFloatExtensions.swift in Sources */,
 				F68925D022CDE83B0008263B /* IntExtensions.swift in Sources */,
@@ -1355,6 +1369,7 @@
 				F68925D622CDE8A10008263B /* IntExtensionsTests.swift in Sources */,
 				F22A3569228074D4004E8546 /* FoldTests.swift in Sources */,
 				F2008311225F4C5200AC6EE1 /* StringExtensionsTests.swift in Sources */,
+				F262379923965EA40019C854 /* EquatableExtensionsTests.swift in Sources */,
 				F200835D22662DDD00AC6EE1 /* TimeIntervalExtensionsTests.swift in Sources */,
 				F20082E2225DFFD900AC6EE1 /* OptionalExtensionsTests.swift in Sources */,
 				F22A38F5227C77770012C010 /* SharedDictionaryExtensionsTests.swift in Sources */,
@@ -1412,6 +1427,7 @@
 				F62CC3452270A1A000DC46F2 /* SnackBar.swift in Sources */,
 				F62CC34222709F4500DC46F2 /* Toast.swift in Sources */,
 				F200831D225F831F00AC6EE1 /* StringExtensions+Values.swift in Sources */,
+				F262379523965E010019C854 /* EquatableExtensions.swift in Sources */,
 				F2496726230D504200C06E2E /* SemVer.swift in Sources */,
 				F2008379226789AA00AC6EE1 /* UILabelExtensions.swift in Sources */,
 				F2008322225F83EF00AC6EE1 /* StringExtensions+Validators.swift in Sources */,
@@ -1479,6 +1495,7 @@
 				F2008339225F878600AC6EE1 /* StringExtensions+ValuesTests.swift in Sources */,
 				F2C78F26238D6AF2008C4846 /* CellIdentificableTests.swift in Sources */,
 				F22A38F6227C77770012C010 /* SharedDictionaryExtensionsTests.swift in Sources */,
+				F262379A23965EA40019C854 /* EquatableExtensionsTests.swift in Sources */,
 				F22A38F2227C77620012C010 /* DictionaryExtensionsTests.swift in Sources */,
 				F21A6780226F4E6B0026F6E9 /* UIViewExtensionsTests.swift in Sources */,
 				F2008331225F876300AC6EE1 /* StringExtensions+ValidatorsTests.swift in Sources */,
@@ -1515,6 +1532,7 @@
 				F200835A22662DC400AC6EE1 /* TimeIntervalExtensions.swift in Sources */,
 				F68925D222CDE83C0008263B /* IntExtensions.swift in Sources */,
 				F2008328225F84A100AC6EE1 /* StringExtensions+Formating.swift in Sources */,
+				F262379623965E010019C854 /* EquatableExtensions.swift in Sources */,
 				F22A357622807843004E8546 /* DispatchQueueExtensions.swift in Sources */,
 				F22A38DB227C634F0012C010 /* OrderedSet.swift in Sources */,
 				F2AC727A23460D2E00661BE9 /* FormatterExtensions.swift in Sources */,
