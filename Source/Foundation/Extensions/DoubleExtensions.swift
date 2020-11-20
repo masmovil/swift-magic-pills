@@ -1,7 +1,11 @@
 import Foundation
 
-extension Double {
+public extension Double {
     var toString: String {
         return "\(self)"
+    }
+    
+    var asNSNumber: NSNumber {
+        return NSNumber(value: self)
     }
 }

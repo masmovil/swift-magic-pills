@@ -16,4 +16,10 @@ class Int64ExtensionsTests: XCTestCase {
         XCTAssertEqual((1_024 as Int64).toString, "1024")
         XCTAssertNotEqual((1_024 as Int64).toString, "10")
     }
+    
+    func test_int_to_nsnumber_conversion() {
+        let expectedResultInt = 20
+        let expectedResultNumber = expectedResultInt.asNSNumber
+        XCTAssertEqual(expectedResultInt, expectedResultNumber.intValue)
+    }
 }
